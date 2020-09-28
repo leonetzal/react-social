@@ -21,7 +21,7 @@ export const list = async () => {
         });
         return response.json();
     } catch (err) {
-        return console.log(err);
+        return console.log("No post:", err);
     }
 }
 
